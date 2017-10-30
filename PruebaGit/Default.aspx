@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2>Getting started </h2>
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="BoxID" DataSourceID="dsPost">
                 <Columns>
                     <asp:BoundField DataField="BoxID" HeaderText="BoxID" InsertVisible="False" ReadOnly="True" SortExpression="BoxID" />
